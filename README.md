@@ -3,11 +3,11 @@
 📂 [Access the Dataset on Google Drive]((https://drive.google.com/drive/folders/1z_VZuXSdXW84y_0Bwc-s-PWu4YlfmKjI?usp=share_link))
 
 
-🧠 Project Overview
+## 🧠 Project Overview
 
 This project aims to explore and predict levels of depression among university students using survey data collected through a detailed questionnaire. Through data cleaning, feature engineering, statistical analysis, and machine learning, the goal is to identify key factors contributing to depression and assess the feasibility of automating mental health risk classification.
 
-📊 Dataset
+## 📊 Dataset
 
 Source
 
@@ -25,7 +25,7 @@ Depression Label: Derived from the total PHQ-9 score using standard thresholds
 
 Additional derived scores: Anxiety_Value, Stress_Value, and corresponding labels (not used in modeling to avoid leakage)
 
-🧹 Data Preparation
+## 🧹 Data Preparation
 
 Detailed in the notebook Stress_data_cleaning.ipynb:
 
@@ -39,7 +39,7 @@ Removed PHQ items to prevent data leakage when predicting Depression_Label
 
 Final cleaned dataset saved as Cleaned_Final.csv
 
-📈 Exploratory Data Analysis
+## 📈 Exploratory Data Analysis
 
 See Stress_data_analysis.ipynb:
 
@@ -49,7 +49,7 @@ Bar plots showing average depression, anxiety, and stress by gender, CGPA, depar
 
 KDE plots showing score distributions by gender
 
-🤖 Machine Learning Methods
+## 🤖 Machine Learning Methods
 
 Notebook: Stress_ML_1.ipynb
 
@@ -77,7 +77,7 @@ Evaluated models using accuracy, weighted F1, and classification report
 
 Visualized top feature importances for Random Forest and XGBoost
 
-📦 Dependencies
+## 📦 Dependencies
 
 This project uses the following Python libraries:
 
@@ -91,7 +91,7 @@ xgboost
 
 (optional for profiling) ydata-profiling
 
-🔁 Reproducibility
+## 🔁 Reproducibility
 
 To reproduce the analysis and results:
 
@@ -111,7 +111,7 @@ Stress_ML_1.ipynb
 
 Ensure Cleaned_Final.csv is present in your working directory for the modeling notebook.
 
-🙋‍♂️ Author
+## 🙋‍♂️ Author
 
 This project was developed as part of a machine learning course by a university student interested in mental health analytics and applied AI. Reach out via GitHub for questions or collaborations.
 
