@@ -7,7 +7,7 @@
 
 This project aims to explore and predict levels of depression among university students using survey data collected through a detailed questionnaire. Through data cleaning, feature engineering, statistical analysis, and machine learning, the goal is to identify key factors contributing to depression and assess the feasibility of automating mental health risk classification.
 
-## 📊 Dataset
+## 📊 Dataset
 
 Source
 
